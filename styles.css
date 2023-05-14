@@ -2,6 +2,7 @@
     --bg-color: #162428;
     --accent-color: #49cefe;
     --text-color: lightgrey;
+    --inv: #00000000;
 }
 
 body {
@@ -51,4 +52,10 @@ body {
     color: var(--accent-color);
     background-color: var(--bg-color);
     border-color: var(--accent-color);
+}
+
+.provider {
+    background-color: var(--inv);
+    border-color: var(--inv);
+    scale: 50%;
 }
